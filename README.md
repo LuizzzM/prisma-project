@@ -33,5 +33,8 @@ npx prisma migrate dev
 # Inicie o servidor
 npm start
 
+# Abra o arquivo index.html para ver a aplicação
+
 # Abra o Prisma Studio para visualizar e interagir com o banco de dados
 npx prisma studio
+
