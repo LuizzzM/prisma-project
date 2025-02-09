@@ -1,0 +1,21 @@
+datasource db {
+  provider = "sqlite"
+  url      = "file:./dev.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Aluno {
+  id          Int          @id @default(autoincrement())
+  nome        String
+  email       String       @unique
+  disciplinas Disciplina[] // Relação muitos-para-muitos
+}
+
+model Disciplina {
+  id     Int      @id @default(autoincrement())
+  nome   String   @unique
+  alunos Aluno[]  // Relação muitos-para-muitos
+}

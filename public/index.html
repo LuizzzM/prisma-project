@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Aluno</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>Cadastro de Aluno</h1>
+  <form id="alunoForm">
+    <input type="text" id="nome" placeholder="Nome" required>
+    <input type="email" id="email" placeholder="Email" required>
+    <input type="text" id="disciplina" placeholder="Disciplina (ex: Bancos de Dados, Arquitetura de Computadores, Algoritmos, Estruturas de Dados I)" required>
+    <button type="submit">Cadastrar</button>
+  </form>
+
+  <h2>Alunos Cadastrados</h2>
+  <ul id="alunosList"></ul>
+
+  <script src="script.js"></script>
+</body>
+</html>
