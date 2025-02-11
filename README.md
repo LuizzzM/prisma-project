@@ -1,5 +1,5 @@
 # Projeto Prisma com Node.js
-**Autores:** Luiz Augusto Mendes Barbosa, Marcos Cabral Barbosa, Filipe Santos Lima
+**Autores:** Luiz Augusto Mendes Barbosa, Marcos Cabral Barbosa, Filipe Santos Lima e Caio César Oliveira Silva
 
 Este projeto utiliza Node.js e Prisma ORM para gerenciar o banco de dados e facilitar o desenvolvimento da aplicação. Siga as instruções abaixo para configurar e executar o projeto localmente.
 
